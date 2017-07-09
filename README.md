@@ -24,12 +24,18 @@ Register a new client
 ```ruby
 client = FbGraph::Client.new(access_token)
 ```
-Get your friends
+### Get your friends
 
-```ruby
-client.my_friends
-```
+`client.my_friends`
+
 `my_friends` method takes an optional argument `start_with: ` or `end_with:`
+
+### Get your images
+
+`client.my_images`
+
+`my_images` takes an optional argument of the album name `Ex. 'cover', 'profile', 'instagram'`.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
