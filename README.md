@@ -1,11 +1,9 @@
 ## Usage
-
-### Initialize a request
-
+you can use the gem by starting a request :
 ```ruby
-HttpClient::Request.new(app: :app_name)
+HttpClient::Request.new(method:, app:, retry_count:, data:, headers:, &success_block)
 ```
-
+and you should pass the arguments as shown in the options section.
 ### Options
 
 | option        | Description | Default |
@@ -19,7 +17,7 @@ HttpClient::Request.new(app: :app_name)
 
 ### Configuration
 
-in your ```.env``` file add your applications list with replacing the ```APPNAME``` and the values :
+in your ```.env``` file add your applications info with replacing the ```APPNAME``` and the values :
 
 ```
 APPNAME_APP_ID=12345678
@@ -41,4 +39,3 @@ create a ```.env``` file and put your application info on it :
 ```
 EXAMPLE_APP_URL=https://jsonplaceholder.typicode.com/posts
 ```
-then run ``` rails s```
