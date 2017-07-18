@@ -3,7 +3,19 @@
 ### Initialize a request
 
 ```ruby
-HttpClient::Requestnew(whatever)
+HttpClient::Request.new(method: )
 ```
 
-### hihi
+
+
+
+### Options
+
+| option        | Description | Default |
+|---------------|-------------|---------|
+| method        | http request method | ```:get``` |
+| app           | |
+| retry_counet  | |
+| data          | |
+| headers       | |
+| success_block |
