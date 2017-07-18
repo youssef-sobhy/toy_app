@@ -13,9 +13,9 @@ HttpClient::Request.new(method: )
 
 | option        | Description | Default |
 |---------------|-------------|---------|
-| method        | http request method | ```:get``` |
-| app           | |
-| retry_counet  | |
+| method        | Http request method | ```:get``` |
+| app           | Application Name j'sfssfajpjo0adofjdfpjdsa ffasfas f   safpoasfpoasoifahsjf spfoasd fopsa pfkdf d pfoas pfjsapfhdfj powf pospofjaosfjosdjf poapfo asjpofj sdpofj sapojfp sdajpof ashfhsa hfsaiohf sahfosha foidshfoiaoifhasfhdishfiodshfsafsa |
+| retry_count   | |
 | data          | |
 | headers       | |
 | success_block |
